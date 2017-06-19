@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    tools:context=".activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_equation"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/large_font"
+            android:gravity="start"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="@dimen/button_size"
+        android:layout_height="@dimen/button_size"
+        android:layout_margin="10dp"
+        android:background="@drawable/menu_icon_state" />
+
+    <LinearLayout
+        android:id="@+id/ln_button_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:visibility="invisible">
+
+        <Button
+            android:id="@+id/btn_laboratory"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/laboratory_button" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/search_menu_button" />
+
+        <Button
+            android:id="@+id/btn_document"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/document_button" />
+
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="5dp"
+            android:background="@drawable/settings_button" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/ln_button_menu">
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_remove"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/remove_area"
+        android:visibility="invisible" />
+
+</RelativeLayout>

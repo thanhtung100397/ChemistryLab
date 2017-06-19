@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/menu_background_normal"
+        android:maxLevel="0"
+        android:minLevel="0" />
+
+    <item
+        android:drawable="@color/list_background"
+        android:minLevel="1"
+        android:maxLevel="1"/>
+</level-list>

@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background_color"
+    android:columnCount="18"
+    android:paddingTop="50dp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:rowCount="9">
+
+    <Button
+        android:id="@+id/btn_H"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="H" />
+
+    <TextView
+        android:layout_width="478dp"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="16"
+        android:layout_rowSpan="1"
+        android:gravity="center"
+        android:text="BẢNG TUẦN HOÀN CÁC NGUYÊN TỐ HOÁ HỌC"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/medium_font"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_He"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="He" />
+
+    <Button
+        android:id="@+id/btn_Li"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Li" />
+
+    <Button
+        android:id="@+id/btn_Be"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Be" />
+
+    <Button
+        android:id="@+id/btn_B"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="11"
+        android:layout_gravity="right"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="B" />
+
+    <Button
+        android:id="@+id/btn_C"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/btn_N"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="N" />
+
+    <Button
+        android:id="@+id/btn_O"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="O" />
+
+    <Button
+        android:id="@+id/btn_F"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="F" />
+
+    <Button
+        android:id="@+id/btn_Ne"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="Ne" />
+
+    <Button
+        android:id="@+id/btn_Na"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Na" />
+
+    <Button
+        android:id="@+id/btn_Mg"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Mg" />
+
+    <Button
+        android:id="@+id/btn_Al"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="11"
+        android:layout_gravity="right"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Al" />
+
+    <Button
+        android:id="@+id/btn_Si"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Si" />
+
+    <Button
+        android:id="@+id/btn_P"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="P" />
+
+    <Button
+        android:id="@+id/btn_S"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="S" />
+
+    <Button
+        android:id="@+id/btn_Cl"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="Cl" />
+
+    <Button
+        android:id="@+id/btn_Ar"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="Ar" />
+
+    <Button
+        android:id="@+id/btn_K"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="K" />
+
+    <Button
+        android:id="@+id/btn_Ca"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Ca"/>
+
+    <Button
+        android:id="@+id/btn_Sc"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Sc" />
+
+    <Button
+        android:id="@+id/btn_Ti"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Ti" />
+
+    <Button
+        android:id="@+id/btn_V"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="V" />
+
+    <Button
+        android:id="@+id/btn_Cr"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Cr" />
+
+    <Button
+        android:id="@+id/btn_Mn"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Mn" />
+
+    <Button
+        android:id="@+id/btn_Fe"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Fe" />
+
+    <Button
+        android:id="@+id/btn_Co"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Co" />
+
+    <Button
+        android:id="@+id/btn_Ni"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Ni" />
+
+    <Button
+        android:id="@+id/btn_Cu"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Cu" />
+
+    <Button
+        android:id="@+id/btn_Zn"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Zn" />
+
+    <Button
+        android:id="@+id/btn_Ga"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Ga" />
+
+    <Button
+        android:id="@+id/btn_Ge"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Ge" />
+
+    <Button
+        android:id="@+id/btn_As"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="As" />
+
+    <Button
+        android:id="@+id/btn_Se"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Se" />
+
+    <Button
+        android:id="@+id/btn_Br"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Br" />
+
+    <Button
+        android:id="@+id/btn_Kr"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="Kr" />
+
+    <Button
+        android:id="@+id/btn_Rb"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Rb" />
+
+    <Button
+        android:id="@+id/btn_Sr"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Sr" />
+
+    <Button
+        android:id="@+id/btn_Y"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Y" />
+
+    <Button
+        android:id="@+id/btn_Zr"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Zr" />
+
+    <Button
+        android:id="@+id/btn_Nb"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Nb" />
+
+    <Button
+        android:id="@+id/btn_Mo"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Mo" />
+
+    <Button
+        android:id="@+id/btn_Tc"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Tc" />
+
+    <Button
+        android:id="@+id/btn_Ru"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Ru" />
+
+    <Button
+        android:id="@+id/btn_Rh"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Rh" />
+
+    <Button
+        android:id="@+id/btn_Pd"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Pd" />
+
+    <Button
+        android:id="@+id/btn_Ag"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Ag"/>
+
+    <Button
+        android:id="@+id/btn_Cd"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Cd" />
+
+    <Button
+        android:id="@+id/btn_In"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="In" />
+
+    <Button
+        android:id="@+id/btn_Sn"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Sn" />
+
+    <Button
+        android:id="@+id/btn_Sb"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Sb" />
+
+    <Button
+        android:id="@+id/btn_Te"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Te" />
+
+    <Button
+        android:id="@+id/btn_I"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="I" />
+
+    <Button
+        android:id="@+id/btn_Xe"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="Xe" />
+
+    <Button
+        android:id="@+id/btn_Cs"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Cs" />
+
+    <Button
+        android:id="@+id/btn_Ba"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Ba" />
+
+    <Button
+        android:id="@+id/btn_La"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="La" />
+
+    <Button
+        android:id="@+id/btn_Hf"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Hf" />
+
+    <Button
+        android:id="@+id/btn_Ta"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Ta" />
+
+    <Button
+        android:id="@+id/btn_W"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="W" />
+
+    <Button
+        android:id="@+id/btn_Re"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Re" />
+
+    <Button
+        android:id="@+id/btn_Os"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Os" />
+
+    <Button
+        android:id="@+id/btn_Ir"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Ir" />
+
+    <Button
+        android:id="@+id/btn_Pt"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Pt" />
+
+    <Button
+        android:id="@+id/btn_Au"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Au" />
+
+    <Button
+        android:id="@+id/btn_Hg"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Hg" />
+
+    <Button
+        android:id="@+id/btn_Tl"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Tl" />
+
+    <Button
+        android:id="@+id/btn_Pb"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Pb" />
+
+    <Button
+        android:id="@+id/btn_Bi"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Bi" />
+
+    <Button
+        android:id="@+id/btn_Po"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="Po" />
+
+    <Button
+        android:id="@+id/btn_At"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_blue"
+        android:text="At"/>
+
+    <Button
+        android:id="@+id/btn_Rn"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_green"
+        android:text="Rn" />
+
+    <Button
+        android:id="@+id/btn_Fr"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Fr" />
+
+    <Button
+        android:id="@+id/btn_Ra"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Ra" />
+
+    <Button
+        android:id="@+id/btn_Ac"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="16"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_orange"
+        android:text="Ac" />
+
+    <Button
+        android:id="@+id/btn_Ce"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="4"
+        android:layout_gravity="right"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Ce"/>
+
+    <Button
+        android:id="@+id/btn_Pr"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Pr"/>
+
+    <Button
+        android:id="@+id/btn_Nd"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Nd" />
+
+    <Button
+        android:id="@+id/btn_Pm"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Pm" />
+
+    <Button
+        android:id="@+id/btn_Sm"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Sm"/>
+
+    <Button
+        android:id="@+id/btn_Eu"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Eu" />
+
+    <Button
+        android:id="@+id/btn_Gd"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Gd"/>
+
+    <Button
+        android:id="@+id/btn_Tb"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Tb"/>
+
+    <Button
+        android:id="@+id/btn_Dy"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Dy" />
+
+    <Button
+        android:id="@+id/btn_Ho"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Ho" />
+
+    <Button
+        android:id="@+id/btn_Er"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Er" />
+
+    <Button
+        android:id="@+id/btn_Tm"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Tm" />
+
+    <Button
+        android:id="@+id/btn_Yb"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Yb"/>
+
+    <Button
+        android:id="@+id/btn_Lu"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_violet"
+        android:text="Lu" />
+
+    <Button
+        android:id="@+id/btn_Th"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="4"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Th"
+        android:layout_gravity="right"/>
+
+    <Button
+        android:id="@+id/btn_Pa"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Pa" />
+
+    <Button
+        android:id="@+id/btn_U"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="U" />
+
+    <Button
+        android:id="@+id/btn_Np"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Np"/>
+
+    <Button
+        android:id="@+id/btn_Pu"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Pu" />
+
+    <Button
+        android:id="@+id/btn_Am"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Am" />
+
+    <Button
+        android:id="@+id/btn_Cm"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Cm" />
+
+    <Button
+        android:id="@+id/btn_Bk"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Bk" />
+
+    <Button
+        android:id="@+id/btn_Cf"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Cf"/>
+
+    <Button
+        android:id="@+id/btn_Es"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Es" />
+
+    <Button
+        android:id="@+id/btn_Fm"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Fm" />
+
+    <Button
+        android:id="@+id/btn_Md"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Md" />
+
+    <Button
+        android:id="@+id/btn_No"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="No"/>
+
+    <Button
+        android:id="@+id/btn_Lr"
+        style="@style/MyBox"
+        android:layout_width="@dimen/bound"
+        android:layout_height="@dimen/bounds"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:background="@drawable/box_pink"
+        android:text="Lr" />
+
+
+</GridLayout>

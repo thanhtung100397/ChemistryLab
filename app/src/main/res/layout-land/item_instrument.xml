@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/item_size"
+    android:layout_height="@dimen/item_size"
+    android:padding="3dp"
+    android:gravity="center"
+    android:background="@drawable/item_border"
+    android:scaleX="0.95"
+    android:scaleY="0.95">
+
+    <ImageView
+        android:id="@+id/img_review_instrument"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:scaleType="centerInside"/>
+
+    <com.chemistry.admin.chemistrylab.customview.ChemicalSymbolView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

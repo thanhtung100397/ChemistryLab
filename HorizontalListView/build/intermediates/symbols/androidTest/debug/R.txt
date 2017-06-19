@@ -1,0 +1,6 @@
+int attr dividerWidth 0x7f010000
+int[] styleable HorizontalListView { 0x010100e0, 0x01010129, 0x010103a5, 0x7f010000 }
+int styleable HorizontalListView_android_divider 1
+int styleable HorizontalListView_android_fadingEdgeLength 0
+int styleable HorizontalListView_android_requiresFadingEdge 2
+int styleable HorizontalListView_dividerWidth 3

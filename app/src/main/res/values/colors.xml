@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_background_color">#b8e7fb</color>
+    <color name="menu_background_normal">#29B6F6</color>
+    <color name="menu_background_chosen">#29B6F6</color>
+    <color name="button_color_start">#45B3E0</color>
+    <color name="button_color_end">#C7E8F5</color>
+    <color name="item_color">#4CAF50</color>
+    <color name="list_background">#81D4FA</color>
+    <color name="transparent">#80000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="simpletooltip_background">@color/white</color>
+    <color name="simpletooltip_arrow">@color/white</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="devider_color">#E4E4E4</color>
+    <color name="solid_tip_color">@color/black</color>
+    <color name="liquid_tip_color">#0073E5</color>
+    <color name="gas_tip_color">#CDCDCD</color>
+
+    <color name="colorGreen1">#40FF93</color>
+    <color name="colorGreen2">#2CB266</color>
+    <color name="colorLightBlue1">#40FFF2</color>
+    <color name="colorLightBlue2">#2CB2A9</color>
+    <color name="colorDarkGreen1">#07F442</color>
+    <color name="colorDarkGreen2">#04AA2E</color>
+    <color name="colorOrange1">#FFD240</color>
+    <color name="colorOrange2">#B2932C</color>
+    <color name="colorViolet1">#F010F7</color>
+    <color name="colorViolet2">#A80BAC</color>
+    <color name="colorLightPink1">#FAC0E4</color>
+    <color name="colorLightPink2">#AF869F</color>
+    <color name="colorWhite1">#EFEDEE</color>
+    <color name="colorWhite2">#A7A5A6</color>
+
+    <color name="colorAmber">#ffc107</color>
+    <color name="colorOrange200">#ffb300</color>
+    <color name="colorOrange500">#ff9800</color>
+    <color name="colorAmber300">#ffd54f</color>
+    <color name="colorBlue600">#039be5</color>
+    <color name="colorBlue300">#4fc3f7</color>
+    <color name="colorBlue200">#311b92</color>
+    <color name="colorBlue500">#7e57c2</color>
+    <color name="blue_light">#A0FCFC</color>
+</resources>

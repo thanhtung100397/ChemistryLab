@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_size"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/btn_equipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/laboratory_menu_button"
+            android:text="@string/menu_1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_liquid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/laboratory_menu_button"
+            android:text="@string/menu_2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_solid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/laboratory_menu_button"
+            android:text="@string/menu_3"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_gas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/laboratory_menu_button"
+            android:text="@string/menu_4"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <com.meetme.android.horizontallistview.HorizontalListView
+        android:id="@+id/h_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_size"
+        android:background="@color/list_background"
+        android:visibility="gone"/>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300px"
+    android:layout_height="300px"
+    android:layout_gravity="center"
+    android:background="@drawable/bgsubstance"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/txt_atomic_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="13"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txt_atomic_mass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt_atomic_number"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/txt_atomic_number"
+        android:text="26,982"
+        android:textSize="15sp"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/txt_electronic_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_atomic_mass"
+        android:gravity="center"
+        android:text="1,61"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/txt_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Al"
+        android:textColor="@color/white"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_symbol"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Nhôm"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_marginBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/txt_electron_config"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:text="[Ne]3s^23p^1"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"
+        android:bufferType="spannable"/>
+
+
+    <TextView
+        android:id="@+id/txt_oxidation_states"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:text="+1 +2 +4 -4 -5"
+        android:textColor="@android:color/white"
+        android:textSize="11sp"/>
+
+
+</RelativeLayout>

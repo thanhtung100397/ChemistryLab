@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/menu_background_chosen"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_size"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_search"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/button_search_background"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/search_button"
+            android:scaleType="centerInside"/>
+
+        <EditText
+            android:id="@+id/edt_search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:layout_margin="5dp"
+            android:layout_toStartOf="@id/btn_search"
+            android:textSize="@dimen/medium_font"
+            android:gravity="center_vertical"
+            android:hint="@string/search_hint"
+            android:textStyle="italic"
+            android:background="@drawable/search_bar_background"/>
+
+        <ProgressBar
+            android:id="@+id/loading_bar"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:indeterminate="true"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <WebView
+                android:id="@+id/web_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"/>
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/list_hint"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_hint_height"
+            android:background="#90A59E9B"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

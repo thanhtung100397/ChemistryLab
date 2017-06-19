@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/txt_substance_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Substance Name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/tip_font"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_M"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="98.2"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/tip_font"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/devider_width"
+        android:layout_below="@id/txt_M"
+        android:background="@color/devider_color" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_substance_name"
+        android:text="Density (g/ml)"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/equipment_font"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txt_density"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/txt_substance_name"
+        android:layout_marginBottom="20dp"
+        android:text="30.5"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/equipment_font"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/devider_width"
+        android:layout_below="@id/txt_density"
+        android:background="@color/devider_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_density"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/txt_temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:text="mol"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/equipment_font"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/txt_mole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@id/txt_temp"
+            android:gravity="end"
+            android:text="3.0"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"/>
+
+        <SeekBar
+            android:id="@+id/seek_bar_mole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/txt_mole"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
